@@ -1,8 +1,8 @@
-// pages/index.tsx
+
 import React, { useState } from 'react';
 import axios from 'axios';
 import PlayerStats from '../types/types';
-import styles from '../components/Home.module.css'; // Importer CSS
+import styles from '../components/Home.module.css'; // Importerer CSS
 
 const Home: React.FC = () => {
   const [searchQuery, setSearchQuery] = useState('');
